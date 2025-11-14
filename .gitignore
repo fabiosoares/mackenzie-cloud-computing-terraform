@@ -1,0 +1,20 @@
+/.terraform/
+.terraform.lock.hcl
+*.tfstate
+*.tfstate.backup
+*.tfvars
+*.pem
+# OS files
+.DS_Store
+thumbs.db
+
+# Editor folders
+.vscode/
+/.idea/
+
+# Node
+node_modules/
+
+# Logs
+*.log
+.secrets/
