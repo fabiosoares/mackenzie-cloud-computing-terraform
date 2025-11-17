@@ -104,5 +104,7 @@ EC2:
 ![EC2](assets/ec2-evidencia.png)
 
 # Referências
+
 [YouTube - Como configurar AWS para usar o Terraform](https://www.youtube.com/watch?v=2Q39eWPLVpg)
+
 [Youtube - O que é uma VPC na AWS?](https://www.youtube.com/watch?v=44--QPZbUZ0)

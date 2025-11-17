@@ -277,8 +277,7 @@ resource "aws_cloudwatch_metric_alarm" "cpu_low" {
 }
 
 # 5. Route 53 (Opcional, requer um Hosted Zone existente)
-# Este bloco é um placeholder. Para que funcione, você deve ter um Hosted Zone
-# existente na sua conta AWS com o nome de domínio especificado.
+# Não foi configurado para este projeto. Código de uso comentado.
 /*
 resource "aws_route53_record" "web_app" {
   zone_id = data.aws_route53_zone.selected.zone_id
