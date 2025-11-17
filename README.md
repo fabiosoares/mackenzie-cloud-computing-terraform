@@ -22,14 +22,17 @@ A arquitetura implementa os seguintes componentes:
     *   Configurado para manter um mínimo de 2 e máximo de 4 instâncias.
     *   Utiliza as sub-redes privadas.
 9.  **Políticas de Escalonamento:** Políticas baseadas na utilização da CPU (aumenta se > 80%, diminui se < 30%).
-10. **Amazon Route 53 (Opcional):** Um bloco de código comentado está incluído para configurar um registro `A` apontando para o ALB, caso você tenha um Hosted Zone existente.
+10. **Amazon Route 53 (Opcional):** Um bloco de código comentado está incluído para configurar um registro `A` apontando para o ALB, caso seja configurado um Hosted Zone existente, o que não foi feito nesta atividade.
 
 ## Pré-requisitos
 
 *   Conta AWS configurada.
 *   AWS CLI configurado com credenciais de acesso.
 *   Terraform instalado.
-*   Um par de chaves SSH (key pair) na AWS (o nome padrão é `my-key-pair`). @TODO: criar o key pair
+*   Um par de chaves SSH (key pair) na AWS (o nome padrão é `my-key-pair`).
+Chave SSH usada nas instâncias EC2:
+![Chave SSH](assets/chave-evidencia.png)
+
 
 ## Como Usar
 
@@ -88,3 +91,14 @@ A arquitetura implementa os seguintes componentes:
 Ubuntu 25.04 = ami-01f939902904966ba
 
 [Fonte](https://cloud-images.ubuntu.com/locator/ec2/)
+
+# Evidências da Execução
+
+Execução Terraform:
+![Execução Terraform](assets/execucao-evidencia.png)
+
+LB:
+![LB](assets/lb-evidencia.png)
+
+EC2:
+![EC2](assets/ec2-evidencia.png)
