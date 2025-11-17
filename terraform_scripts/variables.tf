@@ -37,7 +37,7 @@ variable "instance_type" {
 variable "ami_id" {
   description = "ID da AMI para as instâncias EC2 (deve ser uma AMI compatível com a região)"
   type        = string
-  default     = "ami-053b0d534c3757829" # Exemplo de AMI do Amazon Linux 2 na us-east-1
+  default     = "ami-053b0d534c3757829" # AMI do Amazon Linux 2 na us-east-1
 }
 
 variable "key_name" {
